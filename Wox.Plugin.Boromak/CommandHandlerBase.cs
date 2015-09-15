@@ -40,6 +40,7 @@ namespace Wox.Plugin.Boromak
             Context = context;
             ParentCommand = parent;
             var temp = this;
+           
             while (temp != null)
             {
                 temp = temp.ParentCommand;
